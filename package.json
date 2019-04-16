@@ -1,0 +1,32 @@
+{
+  "name": "proexdata",
+  "private": true,
+  "version": "1.0.0",
+  "description": "proexdata",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch"
+  },
+  "dependencies": {
+    "@ionic/core": "4.0.0"
+  },
+  "devDependencies": {
+    "@stencil/core": "0.17.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crscinco/proexData.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/crscinco/proexData/issues"
+  },
+  "homepage": "https://github.com/crscinco/proexData#readme"
+}
